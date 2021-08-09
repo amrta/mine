@@ -1,240 +1,240 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
-proxies:
-  - {name:🇺🇸US, server: 205.185.115.178, port: 31100, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name:🇺🇸US, server: 154.208.10.208, port: 31100, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name:unknow, server: bj.keaiyun.xyz, port: 31104, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name:unknow, server: bj.keaiyun.xyz, port: 31104, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name:unknow, server: az1.keaiyun.xyz, port: 31104, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name:🇺🇸US, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
-  - {name:🇺🇸US, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
-  - {name:🇺🇸US, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
-  - {name:unknown, server: v2us02.isxa.top, port: 443, type: vmess, uuid: 459e9391-ed73-47cd-891e-fd225e7cc309, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2us02.isxa.top}}
-  - {name:unknown, server: v2us01.isxa.top, port: 443, type: vmess, uuid: 8baad3bf-1898-4e3b-ad51-c34e75383b69, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: v2us01.isxa.top}}
-  - {name:🇺🇸US, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name:🇺🇸US, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name:unknown, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name:🇺🇸US, server: 198.41.209.53, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name:🇺🇸US, server: 162.159.210.102, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name:🇺🇸US, server: 104.24.189.254, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name:🇺🇸US, server: 1.0.0.0, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name:unknown, server: 1.0.0.0, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name:unknown, server: 104.24.189.254, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name:unknown, server: 198.41.209.53, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name:🇭🇰HK, server: 1.0.0.120, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: sg.moss.network}}
-  - {name:🇦🇺AU, server: 1.0.0.140, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: sg.moss.network}}
-  - {name:🇦🇺AU, server: 1.0.0.120, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: sg.moss.network}}
-  - {name:🇦🇺AU, server: 1.0.0.120, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: sg.moss.network}}
-  - {name:🇦🇺AU, server: 1.0.0.120, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: sg.moss.network}}
-  - {name:🇷🇺RU, server: ru2-relay.kejibearnode.cf, port: 20008, type: vmess, uuid: 3647ebdb-fa25-385f-a78b-f137811e586f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: ru2-relay.kejibearnode.cf}}
-  - {name:🇷🇺RU, server: ru01.kelecloud.xyz, port: 20086, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: ru01.kelecloud.xyz}}
-  - {name:🇷🇺RU, server: ru01.kelecloud.xyz, port: 20086, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: ru01.kelecloud.xyz}}
-  - {name:unknown, server: ru01.kelecloud.xyz, port: 20086, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: ru01.kelecloud.xyz}}
-  - {name:🇺🇸US, server: klrelaync.chbjpw.mobi, port: 20062, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:🇹🇼TW, server: klrelaync.chbjpw.mobi, port: 10017, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:🇹🇼TW, server: klrelaync.chbjpw.mobi, port: 10018, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:🇹🇼TW, server: klrelaync.chbjpw.mobi, port: 10018, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:🇹🇼TW, server: klrelaync.chbjpw.mobi, port: 10017, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:🇷🇴RO, server: klrelaync.chbjpw.mobi, port: 21362, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:unknown, server: klrelaync.chbjpw.mobi, port: 10018, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:unknown, server: klrelaync.chbjpw.mobi, port: 10018, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:unknown, server: klrelaync.chbjpw.mobi, port: 10017, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:unknown, server: klrelaync.chbjpw.mobi, port: 10017, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaync.chbjpw.mobi}}
-  - {name:🇹🇼TW, server: klrelaynb.chbjpw.mobi, port: 50001, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇹🇼TW, server: klrelaynb.chbjpw.mobi, port: 50001, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇹🇭TH, server: klrelaynb.chbjpw.mobi, port: 21375, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇹🇭TH, server: klrelaynb.chbjpw.mobi, port: 21375, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇸🇬SG, server: klrelaynb.chbjpw.mobi, port: 21365, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 20069, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 20069, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 20068, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 50000, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 10004, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 20069, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 10004, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 50000, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 20068, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇭🇰HK, server: klrelaynb.chbjpw.mobi, port: 20069, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇦🇹AT, server: klrelaynb.chbjpw.mobi, port: 20060, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇦🇹AT, server: klrelaynb.chbjpw.mobi, port: 20060, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 50001, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 20068, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 50001, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 21365, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 50000, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 21375, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 20068, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 21375, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 20060, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 50000, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 20060, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 10004, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:unknown, server: klrelaynb.chbjpw.mobi, port: 10004, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelaynb.chbjpw.mobi}}
-  - {name:🇯🇵JP, server: klrelayna.chbjpw.mobi, port: 21360, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelayna.chbjpw.mobi}}
-  - {name:🇯🇵JP, server: klrelayna.chbjpw.mobi, port: 21360, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelayna.chbjpw.mobi}}
-  - {name:unknown, server: klrelayna.chbjpw.mobi, port: 21360, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelayna.chbjpw.mobi}}
-  - {name:unknown, server: klrelayna.chbjpw.mobi, port: 21360, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: klrelayna.chbjpw.mobi}}
-  - {name:🇹🇼TW, server: 60.249.3.226, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
-  - {name:🇹🇼TW, server: 60.249.3.226, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
-  - {name:🇹🇼TW, server: ff5c0fb.ra.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
-  - {name:🇹🇼TW, server: 60.249.3.226, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
-  - {name:🇯🇵JP, server: ff5c0fb.rc.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: icloud.com}}
-  - {name:🇭🇰HK, server: 1.0.0.100, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: hk.moss.network}}
-  - {name:🇦🇺AU, server: 1.0.0.100, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: hk.moss.network}}
-  - {name:🇦🇺AU, server: 1.0.0.100, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: hk.moss.network}}
-  - {name:🇦🇺AU, server: 1.0.0.100, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: hk.moss.network}}
-  - {name:unknown, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name:🇩🇪DE, server: free-au01.starlink.cyou, port: 18077, type: vmess, uuid: efef3313-2230-48b4-aa10-9409d6f5b5be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-au01.starlink.cyou}}
-  - {name:🇩🇪DE, server: free-au01.starlink.cyou, port: 18077, type: vmess, uuid: efef3313-2230-48b4-aa10-9409d6f5b5be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-au01.starlink.cyou}}
-  - {name:unknown, server: free-au01.starlink.cyou, port: 18077, type: vmess, uuid: efef3313-2230-48b4-aa10-9409d6f5b5be, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-au01.starlink.cyou}}
-  - {name:🇺🇸US, server: 104.19.110.34, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name:🇺🇸US, server: 104.17.21.243, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name:🇺🇸US, server: 104.25.52.187, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name:🇺🇸US, server: 104.20.161.31, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name:🇺🇸US, server: 104.19.7.84, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name:🇺🇸US, server: 104.16.35.88, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name:🇨🇳CN, server: 116.163.14.253, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: ff5c0fb.hd.gladns.com}}
-  - {name:🇨🇳CN, server: 116.163.14.253, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: ff5c0fb.hd.gladns.com}}
-  - {name:🇹🇼TW, server: 60.249.3.226, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇹🇼TW, server: 211.72.35.153, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇹🇼TW, server: 60.249.3.226, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇹🇼TW, server: 211.72.35.153, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇹🇼TW, server: ff5c0fb.ra.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇹🇼TW, server: ff5c0fb.ra.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇹🇼TW, server: 60.249.3.226, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rf.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rf.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rc.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.ra.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rc.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.re.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rc.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.re.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rd.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.ra.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rb.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rd.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rf.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rc.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇯🇵JP, server: ff5c0fb.rf.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇭🇰HK, server: ff5c0fb.rb.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇭🇰HK, server: ff5c0fb.rd.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇭🇰HK, server: ff5c0fb.re.gladns.com, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇭🇰HK, server: ff5c0fb.rd.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇭🇰HK, server: ff5c0fb.re.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.fm.icloud.com:30513}}
-  - {name:🇺🇸US, server: 1.0.0.4, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: enterprise.moss.network}}
-  - {name:🇦🇺AU, server: 1.0.0.4, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: enterprise.moss.network}}
-  - {name:🇺🇸US, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
-  - {name:🇭🇰HK, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name:🇺🇸US, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name:🇺🇸US, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name:🇩🇪DE, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name:🇩🇪DE, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name:unknown, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name:unknown, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name:🇺🇸US, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
-  - {name:🇯🇵JP, server: c27821f.re.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: c27821f.re.cloudflare.systems}}
-  - {name:🇯🇵JP, server: c27821f.re.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: c27821f.re.cloudflare.systems}}
-  - {name:🇯🇵JP, server: c27821f.rc.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: c27821f.rc.cloudflare.systems}}
-  - {name:🇯🇵JP, server: c27821f.rc.cloudflare.systems, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: c27821f.rc.cloudflare.systems}}
-  - {name:🇹🇼TW, server: 211.72.35.153, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇹🇼TW, server: 211.72.35.153, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇹🇼TW, server: 211.72.35.153, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇹🇼TW, server: 116.163.14.131, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇸🇬SG, server: a5009ddcec736d4bf.awsglobalaccelerator.com, port: 20086, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Pinmk4Nk, ws-headers: {Host: baidu.com}}
-  - {name:🇨🇳CN, server: 120.236.197.201, port: 3204, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇨🇳CN, server: 120.236.197.201, port: 3203, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇨🇳CN, server: 120.236.197.201, port: 3201, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇨🇳CN, server: 116.163.14.131, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇨🇳CN, server: 120.236.197.201, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇨🇳CN, server: 120.236.197.201, port: 3202, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇨🇳CN, server: 116.163.14.115, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇨🇳CN, server: 116.163.14.115, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇨🇳CN, server: 116.163.14.131, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: baidu.com}}
-  - {name:🇯🇵JP, server: a7b4ffa8596d5dd24.awsglobalaccelerator.com, port: 20086, type: vmess, uuid: 60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: a7b4ffa8596d5dd24.awsglobalaccelerator.com}}
-  - {name:🇯🇵JP, server: a7b4ffa8596d5dd24.awsglobalaccelerator.com, port: 20086, type: vmess, uuid: 4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: a7b4ffa8596d5dd24.awsglobalaccelerator.com}}
-  - {name:🇷🇺RU, server: 91.245.227.135, port: 38166, type: vmess, uuid: 9551d4fd-610e-4bf3-9f93-1df5452c3654, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 91.245.227.135}}
-  - {name:🇯🇵JP, server: 52.196.144.61, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: 52.196.144.61}}
-  - {name:🇯🇵JP, server: 52.196.144.61, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: 52.196.144.61}}
-  - {name:🇺🇸US, server: 104.19.80.46, port: 8080, type: vmess, uuid: 657f7981-0138-4c99-9199-51f62002d8e5, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /1234, ws-headers: {Host: 3.ioqr.cn}}
-  - {name:🇺🇸US, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
-  - {name:🇺🇸US, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
-  - {name:unknown, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
-  - {name:unknown, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
-  - {name:🇺🇸US, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name:🇺🇸US, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name:🇺🇸US, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name:🇺🇸US, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name:unknown, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name:unknown, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name:🇺🇸US, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name:🇺🇸US, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name:🇺🇸US, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name:🇺🇸US, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name:unknown, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name:unknown, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name:🇹🇼TW, server: 211.72.35.153, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: 211.72.35.153}}
-  - {name:🇹🇼TW, server: 211.72.35.153, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: 211.72.35.153}}
-  - {name:🇹🇼TW, server: 211.72.35.153, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: 211.72.35.153}}
-  - {name:🇹🇼TW, server: 211.72.35.153, port: 443, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /s/c27821f.fm.icloud.com:16708, ws-headers: {Host: 211.72.35.153}}
-  - {name:unknown, server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 172.67.150.130}}
-  - {name:unknown, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 104.18.7.138}}
-  - {name:🇺🇸US, server: cn1.relay.iplc.pro, port: 52008, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇺🇸US, server: cn2.relay.iplc.pro, port: 52008, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇺🇸US, server: cn1.relay.iplc.pro, port: 52007, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇺🇸US, server: cn2.relay.iplc.pro, port: 52007, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇺🇸US, server: us1.direct.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇺🇸US, server: 45.88.179.35, port: 35497, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
-  - {name:🇺🇸US, server: 43.226.26.113, port: 31627, type: vmess, uuid: b4d92783-2348-46e6-cf7a-dd45e870a1d2, alterId: 64, cipher: auto, tls: false}
-  - {name:🇺🇸US, server: 43.226.26.113, port: 31627, type: vmess, uuid: b4d92783-2348-46e6-cf7a-dd45e870a1d2, alterId: 64, cipher: auto, tls: false}
-  - {name:🇺🇸US, server: 45.88.179.35, port: 35497, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
-  - {name:🇺🇸US, server: 45.88.179.35, port: 35497, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
-  - {name:🇹🇼TW, server: cn1.relay.iplc.pro, port: 52004, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇹🇼TW, server: cn2.relay.iplc.pro, port: 52004, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇹🇼TW, server: tw1.direct.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇸🇬SG, server: cn1.relay.iplc.pro, port: 52011, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇸🇬SG, server: cn2.relay.iplc.pro, port: 52011, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇸🇬SG, server: sg1.direct.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇷🇺RU, server: cn1.relay.iplc.pro, port: 52010, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇷🇺RU, server: cn2.relay.iplc.pro, port: 52010, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇷🇺RU, server: ru1.direct.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇰🇷KR, server: cn1.relay.iplc.pro, port: 52009, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇰🇷KR, server: cn2.relay.iplc.pro, port: 52009, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇰🇷KR, server: kr1.direct.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇰🇷KR, server: 52.79.228.10, port: 32546, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
-  - {name:🇯🇵JP, server: cn1.relay.iplc.pro, port: 52006, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇯🇵JP, server: cn2.relay.iplc.pro, port: 52006, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇯🇵JP, server: jp2.direct.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇯🇵JP, server: cn1.relay.iplc.pro, port: 52005, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇯🇵JP, server: cn2.relay.iplc.pro, port: 52005, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇯🇵JP, server: jp1.direct.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇯🇵JP, server: 18.181.119.239, port: 42009, type: vmess, uuid: ded56274-0abf-411d-ad4a-13a2c660fc81, alterId: 0, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: cn1.relay.iplc.pro, port: 52012, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: cn2.relay.iplc.pro, port: 52012, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: hk5.direct.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: cn1.relay.iplc.pro, port: 52003, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: cn2.relay.iplc.pro, port: 52003, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: cn2.relay.iplc.pro, port: 52002, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: cn2.relay.iplc.pro, port: 52001, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: cn1.relay.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: cn2.relay.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:🇭🇰HK, server: hk1.direct.iplc.pro, port: 52000, type: vmess, uuid: 61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId: 1, cipher: auto, tls: false}
-  - {name:unknown, server: jp01.v2net.top, port: 10089, type: vmess, uuid: 79D0BCA4-67DB-51D3-B497-39D54338AB61, alterId: 0, cipher: auto, tls: false}
-  - {name:unknown, server: 95.214.55.118, port: 41505, type: vmess, uuid: ab2a10e8-50a1-4d20-e973-b211ea6457f4, alterId: 64, cipher: auto, tls: false}
-  - {name:unknown, server: 52.79.228.10, port: 32546, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
-  - {name:unknown, server: 20.74.131.217, port: 13547, type: vmess, uuid: 52f0fa52-173c-41cb-97b8-bd2ea10217cf, alterId: 64, cipher: auto, tls: false}
-  - {name:unknown, server: 95.214.55.118, port: 41505, type: vmess, uuid: ab2a10e8-50a1-4d20-e973-b211ea6457f4, alterId: 64, cipher: auto, tls: false}
-  - {name:unknown, server: 204.44.68.71, port: 36777, type: vmess, uuid: d70cc1b3-e7e8-4b88-a24e-c91f001fd69e, alterId: 64, cipher: auto, tls: false}
-  - {name:unknown, server: 52.79.228.10, port: 32546, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
-  - {name:unknown, server: 18.181.119.239, port: 42009, type: vmess, uuid: ded56274-0abf-411d-ad4a-13a2c660fc81, alterId: 0, cipher: auto, tls: false}
-proxy-groups:
-  - name: 🚀 节点选择
-    type: select
-    proxies:
+port:  7890
+socks-port:  7891
+allow-lan:  true
+mode:  Rule
+log-level:  info
+external-controller:  127.0.0.1: 9090
+proxies: 
+  - {name: 🇺🇸US, server:  205.185.115.178, port:  31100, type:  vmess, uuid:  44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /v2ray, ws-headers:  {Host:  www.baidu.com}}
+  - {name: 🇺🇸US, server:  154.208.10.208, port:  31100, type:  vmess, uuid:  44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /v2ray, ws-headers:  {Host:  www.baidu.com}}
+  - {name: unknow, server:  bj.keaiyun.xyz, port:  31104, type:  vmess, uuid:  44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /v2ray, ws-headers:  {Host:  www.baidu.com}}
+  - {name: unknow, server:  bj.keaiyun.xyz, port:  31104, type:  vmess, uuid:  44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /v2ray, ws-headers:  {Host:  www.baidu.com}}
+  - {name: unknow, server:  az1.keaiyun.xyz, port:  31104, type:  vmess, uuid:  44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /v2ray, ws-headers:  {Host:  www.baidu.com}}
+  - {name: 🇺🇸US, server:  23.224.31.210, port:  443, type:  vmess, uuid:  4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/270119141029, ws-headers:  {Host:  www.53933374.xyz}}
+  - {name: 🇺🇸US, server:  23.224.31.210, port:  443, type:  vmess, uuid:  4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/270119141029, ws-headers:  {Host:  www.53933374.xyz}}
+  - {name: 🇺🇸US, server:  23.224.31.210, port:  443, type:  vmess, uuid:  4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/270119141029, ws-headers:  {Host:  www.53933374.xyz}}
+  - {name: unknown, server:  v2us02.isxa.top, port:  443, type:  vmess, uuid:  459e9391-ed73-47cd-891e-fd225e7cc309, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /ray, ws-headers:  {Host:  v2us02.isxa.top}}
+  - {name: unknown, server:  v2us01.isxa.top, port:  443, type:  vmess, uuid:  8baad3bf-1898-4e3b-ad51-c34e75383b69, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /ray, ws-headers:  {Host:  v2us01.isxa.top}}
+  - {name: 🇺🇸US, server:  128.14.153.42, port:  13723, type:  vmess, uuid:  a90597c1-bab3-4217-ad6f-0838675c8633, alterId:  1, cipher:  auto, tls:  true, network:  ws, ws-path:  /ray, ws-headers:  {Host:  usa2-node.3366test.com}}
+  - {name: 🇺🇸US, server:  128.14.153.42, port:  13723, type:  vmess, uuid:  a90597c1-bab3-4217-ad6f-0838675c8633, alterId:  1, cipher:  auto, tls:  true, network:  ws, ws-path:  /ray, ws-headers:  {Host:  usa2-node.3366test.com}}
+  - {name: unknown, server:  128.14.153.42, port:  13723, type:  vmess, uuid:  a90597c1-bab3-4217-ad6f-0838675c8633, alterId:  1, cipher:  auto, tls:  true, network:  ws, ws-path:  /ray, ws-headers:  {Host:  usa2-node.3366test.com}}
+  - {name: 🇺🇸US, server:  198.41.209.53, port:  443, type:  vmess, uuid:  65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  us-a.freeproxy1.workers.dev}}
+  - {name: 🇺🇸US, server:  162.159.210.102, port:  443, type:  vmess, uuid:  65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  us-a.freeproxy1.workers.dev}}
+  - {name: 🇺🇸US, server:  104.24.189.254, port:  443, type:  vmess, uuid:  65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  us-a.freeproxy1.workers.dev}}
+  - {name: 🇺🇸US, server:  1.0.0.0, port:  443, type:  vmess, uuid:  65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  us-a.freeproxy1.workers.dev}}
+  - {name: unknown, server:  1.0.0.0, port:  443, type:  vmess, uuid:  65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  us-a.freeproxy1.workers.dev}}
+  - {name: unknown, server:  104.24.189.254, port:  443, type:  vmess, uuid:  65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  us-a.freeproxy1.workers.dev}}
+  - {name: unknown, server:  198.41.209.53, port:  443, type:  vmess, uuid:  65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  us-a.freeproxy1.workers.dev}}
+  - {name: 🇭🇰HK, server:  1.0.0.120, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  sg.moss.network}}
+  - {name: 🇦🇺AU, server:  1.0.0.140, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  sg.moss.network}}
+  - {name: 🇦🇺AU, server:  1.0.0.120, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  sg.moss.network}}
+  - {name: 🇦🇺AU, server:  1.0.0.120, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  sg.moss.network}}
+  - {name: 🇦🇺AU, server:  1.0.0.120, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  sg.moss.network}}
+  - {name: 🇷🇺RU, server:  ru2-relay.kejibearnode.cf, port:  20008, type:  vmess, uuid:  3647ebdb-fa25-385f-a78b-f137811e586f, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /video, ws-headers:  {Host:  ru2-relay.kejibearnode.cf}}
+  - {name: 🇷🇺RU, server:  ru01.kelecloud.xyz, port:  20086, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  ru01.kelecloud.xyz}}
+  - {name: 🇷🇺RU, server:  ru01.kelecloud.xyz, port:  20086, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  ru01.kelecloud.xyz}}
+  - {name: unknown, server:  ru01.kelecloud.xyz, port:  20086, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  ru01.kelecloud.xyz}}
+  - {name: 🇺🇸US, server:  klrelaync.chbjpw.mobi, port:  20062, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: 🇹🇼TW, server:  klrelaync.chbjpw.mobi, port:  10017, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: 🇹🇼TW, server:  klrelaync.chbjpw.mobi, port:  10018, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: 🇹🇼TW, server:  klrelaync.chbjpw.mobi, port:  10018, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: 🇹🇼TW, server:  klrelaync.chbjpw.mobi, port:  10017, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: 🇷🇴RO, server:  klrelaync.chbjpw.mobi, port:  21362, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaync.chbjpw.mobi, port:  10018, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaync.chbjpw.mobi, port:  10018, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaync.chbjpw.mobi, port:  10017, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaync.chbjpw.mobi, port:  10017, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaync.chbjpw.mobi}}
+  - {name: 🇹🇼TW, server:  klrelaynb.chbjpw.mobi, port:  50001, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇹🇼TW, server:  klrelaynb.chbjpw.mobi, port:  50001, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇹🇭TH, server:  klrelaynb.chbjpw.mobi, port:  21375, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇹🇭TH, server:  klrelaynb.chbjpw.mobi, port:  21375, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇸🇬SG, server:  klrelaynb.chbjpw.mobi, port:  21365, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  20069, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  20069, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  20068, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  50000, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  10004, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  20069, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  10004, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  50000, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  20068, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇭🇰HK, server:  klrelaynb.chbjpw.mobi, port:  20069, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇦🇹AT, server:  klrelaynb.chbjpw.mobi, port:  20060, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇦🇹AT, server:  klrelaynb.chbjpw.mobi, port:  20060, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  50001, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  20068, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  50001, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  21365, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  50000, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  21375, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  20068, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  21375, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  20060, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  50000, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  20060, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  10004, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: unknown, server:  klrelaynb.chbjpw.mobi, port:  10004, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelaynb.chbjpw.mobi}}
+  - {name: 🇯🇵JP, server:  klrelayna.chbjpw.mobi, port:  21360, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelayna.chbjpw.mobi}}
+  - {name: 🇯🇵JP, server:  klrelayna.chbjpw.mobi, port:  21360, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelayna.chbjpw.mobi}}
+  - {name: unknown, server:  klrelayna.chbjpw.mobi, port:  21360, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelayna.chbjpw.mobi}}
+  - {name: unknown, server:  klrelayna.chbjpw.mobi, port:  21360, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  klrelayna.chbjpw.mobi}}
+  - {name: 🇹🇼TW, server:  60.249.3.226, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  icloud.com}}
+  - {name: 🇹🇼TW, server:  60.249.3.226, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  icloud.com}}
+  - {name: 🇹🇼TW, server:  ff5c0fb.ra.cloudflare.systems, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  icloud.com}}
+  - {name: 🇹🇼TW, server:  60.249.3.226, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  icloud.com}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rc.cloudflare.systems, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  icloud.com}}
+  - {name: 🇭🇰HK, server:  1.0.0.100, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  hk.moss.network}}
+  - {name: 🇦🇺AU, server:  1.0.0.100, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  hk.moss.network}}
+  - {name: 🇦🇺AU, server:  1.0.0.100, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  hk.moss.network}}
+  - {name: 🇦🇺AU, server:  1.0.0.100, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  hk.moss.network}}
+  - {name: unknown, server:  free-russian01-cdn.xiaohouzi.club, port:  80, type:  vmess, uuid:  3d31728e-064d-42b8-b945-f79c008f73fc, alterId:  233, cipher:  auto, tls:  false, network:  ws, ws-path:  /, ws-headers:  {Host:  free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇩🇪DE, server:  free-au01.starlink.cyou, port:  18077, type:  vmess, uuid:  efef3313-2230-48b4-aa10-9409d6f5b5be, alterId:  1, cipher:  auto, tls:  false, network:  ws, ws-path:  /, ws-headers:  {Host:  free-au01.starlink.cyou}}
+  - {name: 🇩🇪DE, server:  free-au01.starlink.cyou, port:  18077, type:  vmess, uuid:  efef3313-2230-48b4-aa10-9409d6f5b5be, alterId:  1, cipher:  auto, tls:  false, network:  ws, ws-path:  /, ws-headers:  {Host:  free-au01.starlink.cyou}}
+  - {name: unknown, server:  free-au01.starlink.cyou, port:  18077, type:  vmess, uuid:  efef3313-2230-48b4-aa10-9409d6f5b5be, alterId:  1, cipher:  auto, tls:  false, network:  ws, ws-path:  /, ws-headers:  {Host:  free-au01.starlink.cyou}}
+  - {name: 🇺🇸US, server:  104.19.110.34, port:  443, type:  vmess, uuid:  4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId:  1, cipher:  auto, tls:  true, network:  ws, ws-path:  /y475, ws-headers:  {Host:  free.frli.xyz}}
+  - {name: 🇺🇸US, server:  104.17.21.243, port:  443, type:  vmess, uuid:  4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId:  1, cipher:  auto, tls:  true, network:  ws, ws-path:  /y475, ws-headers:  {Host:  free.frli.xyz}}
+  - {name: 🇺🇸US, server:  104.25.52.187, port:  443, type:  vmess, uuid:  4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId:  1, cipher:  auto, tls:  true, network:  ws, ws-path:  /y475, ws-headers:  {Host:  free.frli.xyz}}
+  - {name: 🇺🇸US, server:  104.20.161.31, port:  443, type:  vmess, uuid:  4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId:  1, cipher:  auto, tls:  true, network:  ws, ws-path:  /y475, ws-headers:  {Host:  free.frli.xyz}}
+  - {name: 🇺🇸US, server:  104.19.7.84, port:  443, type:  vmess, uuid:  4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId:  1, cipher:  auto, tls:  true, network:  ws, ws-path:  /y475, ws-headers:  {Host:  free.frli.xyz}}
+  - {name: 🇺🇸US, server:  104.16.35.88, port:  443, type:  vmess, uuid:  4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId:  1, cipher:  auto, tls:  true, network:  ws, ws-path:  /y475, ws-headers:  {Host:  free.frli.xyz}}
+  - {name: 🇨🇳CN, server:  116.163.14.253, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  ff5c0fb.hd.gladns.com}}
+  - {name: 🇨🇳CN, server:  116.163.14.253, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  ff5c0fb.hd.gladns.com}}
+  - {name: 🇹🇼TW, server:  60.249.3.226, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇹🇼TW, server:  211.72.35.153, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇹🇼TW, server:  60.249.3.226, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇹🇼TW, server:  211.72.35.153, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇹🇼TW, server:  ff5c0fb.ra.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇹🇼TW, server:  ff5c0fb.ra.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇹🇼TW, server:  60.249.3.226, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rf.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rf.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rc.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.ra.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rc.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.re.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rc.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.re.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rd.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.ra.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rb.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rd.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rf.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rc.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇯🇵JP, server:  ff5c0fb.rf.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇭🇰HK, server:  ff5c0fb.rb.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇭🇰HK, server:  ff5c0fb.rd.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇭🇰HK, server:  ff5c0fb.re.gladns.com, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇭🇰HK, server:  ff5c0fb.rd.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇭🇰HK, server:  ff5c0fb.re.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/ff5c0fb.fm.icloud.com: 30513, ws-headers:  {Host:  ff5c0fb.fm.icloud.com: 30513}}
+  - {name: 🇺🇸US, server:  1.0.0.4, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  enterprise.moss.network}}
+  - {name: 🇦🇺AU, server:  1.0.0.4, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  enterprise.moss.network}}
+  - {name: 🇺🇸US, server:  c-us3.ooxc.cc, port:  443, type:  vmess, uuid:  db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /jj, ws-headers:  {Host:  c-us3.ooxc.cc}}
+  - {name: 🇭🇰HK, server:  centos.fuchau.xyz, port:  443, type:  vmess, uuid:  b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId:  2, cipher:  auto, tls:  true, network:  ws, ws-path:  /add76314/, ws-headers:  {Host:  centos.fuchau.xyz}}
+  - {name: 🇺🇸US, server:  104.18.7.138, port:  443, type:  vmess, uuid:  3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  cdnde.irteyz.today}}
+  - {name: 🇺🇸US, server:  104.18.7.138, port:  443, type:  vmess, uuid:  3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  cdnde.irteyz.today}}
+  - {name: 🇩🇪DE, server:  104.18.7.138, port:  443, type:  vmess, uuid:  3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  cdnde.irteyz.today}}
+  - {name: 🇩🇪DE, server:  104.18.7.138, port:  443, type:  vmess, uuid:  3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  cdnde.irteyz.today}}
+  - {name: unknown, server:  172.67.154.85, port:  443, type:  vmess, uuid:  3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  cdnde.irteyz.today}}
+  - {name: unknown, server:  104.21.48.161, port:  443, type:  vmess, uuid:  3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  cdnde.irteyz.today}}
+  - {name: 🇺🇸US, server:  cc.hciahciphcie.club, port:  443, type:  vmess, uuid:  9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId:  2, cipher:  auto, tls:  true, network:  ws, ws-path:  /84c3f/, ws-headers:  {Host:  cc.hciahciphcie.club}}
+  - {name: 🇯🇵JP, server:  c27821f.re.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  c27821f.re.cloudflare.systems}}
+  - {name: 🇯🇵JP, server:  c27821f.re.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  c27821f.re.cloudflare.systems}}
+  - {name: 🇯🇵JP, server:  c27821f.rc.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  c27821f.rc.cloudflare.systems}}
+  - {name: 🇯🇵JP, server:  c27821f.rc.cloudflare.systems, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  c27821f.rc.cloudflare.systems}}
+  - {name: 🇹🇼TW, server:  211.72.35.153, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇹🇼TW, server:  211.72.35.153, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇹🇼TW, server:  211.72.35.153, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇹🇼TW, server:  116.163.14.131, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇸🇬SG, server:  a5009ddcec736d4bf.awsglobalaccelerator.com, port:  20086, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  1, cipher:  auto, tls:  false, network:  ws, ws-path:  /Pinmk4Nk, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇨🇳CN, server:  120.236.197.201, port:  3204, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇨🇳CN, server:  120.236.197.201, port:  3203, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇨🇳CN, server:  120.236.197.201, port:  3201, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇨🇳CN, server:  116.163.14.131, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇨🇳CN, server:  120.236.197.201, port:  3205, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇨🇳CN, server:  120.236.197.201, port:  3202, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇨🇳CN, server:  116.163.14.115, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇨🇳CN, server:  116.163.14.115, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇨🇳CN, server:  116.163.14.131, port:  3306, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/ff5c0fb.fm.apple.com: 30513, ws-headers:  {Host:  baidu.com}}
+  - {name: 🇯🇵JP, server:  a7b4ffa8596d5dd24.awsglobalaccelerator.com, port:  20086, type:  vmess, uuid:  60bcdba1-9027-4355-b3cb-8b8b1023fd9b, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  a7b4ffa8596d5dd24.awsglobalaccelerator.com}}
+  - {name: 🇯🇵JP, server:  a7b4ffa8596d5dd24.awsglobalaccelerator.com, port:  20086, type:  vmess, uuid:  4ead3f6d-6ac3-4ba6-9b7b-cc618662ba93, alterId:  2, cipher:  auto, tls:  false, network:  ws, ws-path:  /index, ws-headers:  {Host:  a7b4ffa8596d5dd24.awsglobalaccelerator.com}}
+  - {name: 🇷🇺RU, server:  91.245.227.135, port:  38166, type:  vmess, uuid:  9551d4fd-610e-4bf3-9f93-1df5452c3654, alterId:  32, cipher:  auto, tls:  false, network:  ws, ws-path:  /, ws-headers:  {Host:  91.245.227.135}}
+  - {name: 🇯🇵JP, server:  52.196.144.61, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  52.196.144.61}}
+  - {name: 🇯🇵JP, server:  52.196.144.61, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  52.196.144.61}}
+  - {name: 🇺🇸US, server:  104.19.80.46, port:  8080, type:  vmess, uuid:  657f7981-0138-4c99-9199-51f62002d8e5, alterId:  64, cipher:  auto, tls:  false, network:  ws, ws-path:  /1234, ws-headers:  {Host:  3.ioqr.cn}}
+  - {name: 🇺🇸US, server:  23.225.213.242, port:  443, type:  vmess, uuid:  11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.213.242}}
+  - {name: 🇺🇸US, server:  23.225.213.242, port:  443, type:  vmess, uuid:  11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.213.242}}
+  - {name: unknown, server:  23.225.213.242, port:  443, type:  vmess, uuid:  11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.213.242}}
+  - {name: unknown, server:  23.225.213.242, port:  443, type:  vmess, uuid:  11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.213.242}}
+  - {name: 🇺🇸US, server:  23.225.165.242, port:  443, type:  vmess, uuid:  34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.165.242}}
+  - {name: 🇺🇸US, server:  23.225.165.242, port:  443, type:  vmess, uuid:  34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.165.242}}
+  - {name: 🇺🇸US, server:  23.225.165.242, port:  443, type:  vmess, uuid:  34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.165.242}}
+  - {name: 🇺🇸US, server:  23.225.165.242, port:  443, type:  vmess, uuid:  34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.165.242}}
+  - {name: unknown, server:  23.225.165.242, port:  443, type:  vmess, uuid:  34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.165.242}}
+  - {name: unknown, server:  23.225.165.242, port:  443, type:  vmess, uuid:  34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.225.165.242}}
+  - {name: 🇺🇸US, server:  23.224.164.100, port:  443, type:  vmess, uuid:  d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.224.164.100}}
+  - {name: 🇺🇸US, server:  23.224.164.100, port:  443, type:  vmess, uuid:  d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.224.164.100}}
+  - {name: 🇺🇸US, server:  23.224.164.100, port:  443, type:  vmess, uuid:  d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.224.164.100}}
+  - {name: 🇺🇸US, server:  23.224.164.100, port:  443, type:  vmess, uuid:  d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.224.164.100}}
+  - {name: unknown, server:  23.224.164.100, port:  443, type:  vmess, uuid:  d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.224.164.100}}
+  - {name: unknown, server:  23.224.164.100, port:  443, type:  vmess, uuid:  d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /path/160317342506, ws-headers:  {Host:  23.224.164.100}}
+  - {name: 🇹🇼TW, server:  211.72.35.153, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  211.72.35.153}}
+  - {name: 🇹🇼TW, server:  211.72.35.153, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  211.72.35.153}}
+  - {name: 🇹🇼TW, server:  211.72.35.153, port:  80, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  false, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  211.72.35.153}}
+  - {name: 🇹🇼TW, server:  211.72.35.153, port:  443, type:  vmess, uuid:  57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId:  0, cipher:  auto, tls:  true, network:  ws, ws-path:  /s/c27821f.fm.icloud.com: 16708, ws-headers:  {Host:  211.72.35.153}}
+  - {name: unknown, server:  172.67.150.130, port:  80, type:  vmess, uuid:  3d31728e-064d-42b8-b945-f79c008f73fc, alterId:  233, cipher:  auto, tls:  false, network:  ws, ws-path:  /, ws-headers:  {Host:  172.67.150.130}}
+  - {name: unknown, server:  104.18.7.138, port:  443, type:  vmess, uuid:  3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId:  64, cipher:  auto, tls:  true, network:  ws, ws-path:  /, ws-headers:  {Host:  104.18.7.138}}
+  - {name: 🇺🇸US, server:  cn1.relay.iplc.pro, port:  52008, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇺🇸US, server:  cn2.relay.iplc.pro, port:  52008, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇺🇸US, server:  cn1.relay.iplc.pro, port:  52007, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇺🇸US, server:  cn2.relay.iplc.pro, port:  52007, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇺🇸US, server:  us1.direct.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇺🇸US, server:  45.88.179.35, port:  35497, type:  vmess, uuid:  085e6815-e476-411a-a9a6-4e5306a1b875, alterId:  0, cipher:  auto, tls:  false}
+  - {name: 🇺🇸US, server:  43.226.26.113, port:  31627, type:  vmess, uuid:  b4d92783-2348-46e6-cf7a-dd45e870a1d2, alterId:  64, cipher:  auto, tls:  false}
+  - {name: 🇺🇸US, server:  43.226.26.113, port:  31627, type:  vmess, uuid:  b4d92783-2348-46e6-cf7a-dd45e870a1d2, alterId:  64, cipher:  auto, tls:  false}
+  - {name: 🇺🇸US, server:  45.88.179.35, port:  35497, type:  vmess, uuid:  085e6815-e476-411a-a9a6-4e5306a1b875, alterId:  0, cipher:  auto, tls:  false}
+  - {name: 🇺🇸US, server:  45.88.179.35, port:  35497, type:  vmess, uuid:  085e6815-e476-411a-a9a6-4e5306a1b875, alterId:  0, cipher:  auto, tls:  false}
+  - {name: 🇹🇼TW, server:  cn1.relay.iplc.pro, port:  52004, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇹🇼TW, server:  cn2.relay.iplc.pro, port:  52004, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇹🇼TW, server:  tw1.direct.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇸🇬SG, server:  cn1.relay.iplc.pro, port:  52011, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇸🇬SG, server:  cn2.relay.iplc.pro, port:  52011, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇸🇬SG, server:  sg1.direct.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇷🇺RU, server:  cn1.relay.iplc.pro, port:  52010, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇷🇺RU, server:  cn2.relay.iplc.pro, port:  52010, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇷🇺RU, server:  ru1.direct.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇰🇷KR, server:  cn1.relay.iplc.pro, port:  52009, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇰🇷KR, server:  cn2.relay.iplc.pro, port:  52009, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇰🇷KR, server:  kr1.direct.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇰🇷KR, server:  52.79.228.10, port:  32546, type:  vmess, uuid:  25b4eb9e-647c-4440-98b3-d21958e24577, alterId:  0, cipher:  auto, tls:  false}
+  - {name: 🇯🇵JP, server:  cn1.relay.iplc.pro, port:  52006, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇯🇵JP, server:  cn2.relay.iplc.pro, port:  52006, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇯🇵JP, server:  jp2.direct.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇯🇵JP, server:  cn1.relay.iplc.pro, port:  52005, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇯🇵JP, server:  cn2.relay.iplc.pro, port:  52005, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇯🇵JP, server:  jp1.direct.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇯🇵JP, server:  18.181.119.239, port:  42009, type:  vmess, uuid:  ded56274-0abf-411d-ad4a-13a2c660fc81, alterId:  0, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  cn1.relay.iplc.pro, port:  52012, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  cn2.relay.iplc.pro, port:  52012, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  hk5.direct.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  cn1.relay.iplc.pro, port:  52003, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  cn2.relay.iplc.pro, port:  52003, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  cn2.relay.iplc.pro, port:  52002, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  cn2.relay.iplc.pro, port:  52001, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  cn1.relay.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  cn2.relay.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: 🇭🇰HK, server:  hk1.direct.iplc.pro, port:  52000, type:  vmess, uuid:  61d7f7ec-96f1-45ee-bc11-f1f15e80344a, alterId:  1, cipher:  auto, tls:  false}
+  - {name: unknown, server:  jp01.v2net.top, port:  10089, type:  vmess, uuid:  79D0BCA4-67DB-51D3-B497-39D54338AB61, alterId:  0, cipher:  auto, tls:  false}
+  - {name: unknown, server:  95.214.55.118, port:  41505, type:  vmess, uuid:  ab2a10e8-50a1-4d20-e973-b211ea6457f4, alterId:  64, cipher:  auto, tls:  false}
+  - {name: unknown, server:  52.79.228.10, port:  32546, type:  vmess, uuid:  25b4eb9e-647c-4440-98b3-d21958e24577, alterId:  0, cipher:  auto, tls:  false}
+  - {name: unknown, server:  20.74.131.217, port:  13547, type:  vmess, uuid:  52f0fa52-173c-41cb-97b8-bd2ea10217cf, alterId:  64, cipher:  auto, tls:  false}
+  - {name: unknown, server:  95.214.55.118, port:  41505, type:  vmess, uuid:  ab2a10e8-50a1-4d20-e973-b211ea6457f4, alterId:  64, cipher:  auto, tls:  false}
+  - {name: unknown, server:  204.44.68.71, port:  36777, type:  vmess, uuid:  d70cc1b3-e7e8-4b88-a24e-c91f001fd69e, alterId:  64, cipher:  auto, tls:  false}
+  - {name: unknown, server:  52.79.228.10, port:  32546, type:  vmess, uuid:  25b4eb9e-647c-4440-98b3-d21958e24577, alterId:  0, cipher:  auto, tls:  false}
+  - {name: unknown, server:  18.181.119.239, port:  42009, type:  vmess, uuid:  ded56274-0abf-411d-ad4a-13a2c660fc81, alterId:  0, cipher:  auto, tls:  false}
+proxy-groups: 
+  - name:  🚀 节点选择
+    type:  select
+    proxies: 
       - ♻️ 自动选择
       - DIRECT
       - _102 | 3.95Mb
@@ -463,12 +463,12 @@ proxy-groups:
       - 🇸🇬 SG1(Direct) - 新加坡直连专线
       - 🇺🇲 US1(Direct) - 美国直连专线
       - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
+  - name:  ♻️ 自动选择
+    type:  url-test
+    url:  http: //www.gstatic.com/generate_204
+    interval:  300
+    tolerance:  50
+    proxies: 
       - _102 | 3.95Mb
       - _103 |39.18Mb
       - _104 |14.83Mb
@@ -695,9 +695,9 @@ proxy-groups:
       - 🇸🇬 SG1(Direct) - 新加坡直连专线
       - 🇺🇲 US1(Direct) - 美国直连专线
       - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
+  - name:  🌍 国外媒体
+    type:  select
+    proxies: 
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
@@ -927,9 +927,9 @@ proxy-groups:
       - 🇸🇬 SG1(Direct) - 新加坡直连专线
       - 🇺🇲 US1(Direct) - 美国直连专线
       - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
-  - name: 📲 电报信息
-    type: select
-    proxies:
+  - name:  📲 电报信息
+    type:  select
+    proxies: 
       - 🚀 节点选择
       - 🎯 全球直连
       - _102 | 3.95Mb
@@ -1158,9 +1158,9 @@ proxy-groups:
       - 🇸🇬 SG1(Direct) - 新加坡直连专线
       - 🇺🇲 US1(Direct) - 美国直连专线
       - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
+  - name:  Ⓜ️ 微软服务
+    type:  select
+    proxies: 
       - 🎯 全球直连
       - 🚀 节点选择
       - _102 | 3.95Mb
@@ -1389,9 +1389,9 @@ proxy-groups:
       - 🇸🇬 SG1(Direct) - 新加坡直连专线
       - 🇺🇲 US1(Direct) - 美国直连专线
       - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
+  - name:  🍎 苹果服务
+    type:  select
+    proxies: 
       - 🚀 节点选择
       - 🎯 全球直连
       - _102 | 3.95Mb
@@ -1620,9 +1620,9 @@ proxy-groups:
       - 🇸🇬 SG1(Direct) - 新加坡直连专线
       - 🇺🇲 US1(Direct) - 美国直连专线
       - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
+  - name:  📢 谷歌FCM
+    type:  select
+    proxies: 
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
@@ -1852,25 +1852,25 @@ proxy-groups:
       - 🇸🇬 SG1(Direct) - 新加坡直连专线
       - 🇺🇲 US1(Direct) - 美国直连专线
       - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
-  - name: 🎯 全球直连
-    type: select
-    proxies:
+  - name:  🎯 全球直连
+    type:  select
+    proxies: 
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-  - name: 🛑 全球拦截
-    type: select
-    proxies:
+  - name:  🛑 全球拦截
+    type:  select
+    proxies: 
       - REJECT
       - DIRECT
-  - name: 🍃 应用净化
-    type: select
-    proxies:
+  - name:  🍃 应用净化
+    type:  select
+    proxies: 
       - REJECT
       - DIRECT
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
+  - name:  🐟 漏网之鱼
+    type:  select
+    proxies: 
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
@@ -2100,7 +2100,7 @@ proxy-groups:
       - 🇸🇬 SG1(Direct) - 新加坡直连专线
       - 🇺🇲 US1(Direct) - 美国直连专线
       - 🇷🇺 RU1(Direct) - 俄罗斯直连专线
-rules:
+rules: 
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
@@ -2112,10 +2112,10 @@ rules:
  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
  - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
- - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
- - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
- - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
- - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+ - IP-CIDR6,: : 1/128,🎯 全球直连,no-resolve
+ - IP-CIDR6,fc00: : /7,🎯 全球直连,no-resolve
+ - IP-CIDR6,fe80: : /10,🎯 全球直连,no-resolve
+ - IP-CIDR6,fd00: : /8,🎯 全球直连,no-resolve
  - DOMAIN,router.asus.com,🎯 全球直连
  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
@@ -3976,9 +3976,9 @@ rules:
  - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
  - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
  - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001: 67c: 4e8: : /48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001: b28: f23d: : /48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001: b28: f23f: : /48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
@@ -4638,9 +4638,9 @@ rules:
  - IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
  - IP-CIDR,109.239.140.0/24,🚀 节点选择,no-resolve
  - IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
+ - IP-CIDR6,2001: 67c: 4e8: : /48,🚀 节点选择,no-resolve
+ - IP-CIDR6,2001: b28: f23d: : /48,🚀 节点选择,no-resolve
+ - IP-CIDR6,2001: b28: f23f: : /48,🚀 节点选择,no-resolve
  - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
  - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
  - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
@@ -5022,10 +5022,10 @@ rules:
  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
  - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
  - IP-CIDR,221.226.128.146/32,🎯 全球直连,no-resolve
- - IP-CIDR6,2a0b:b580::/48,🎯 全球直连,no-resolve
- - IP-CIDR6,2a0b:b581::/48,🎯 全球直连,no-resolve
- - IP-CIDR6,2a0b:b582::/48,🎯 全球直连,no-resolve
- - IP-CIDR6,2a0b:b583::/48,🎯 全球直连,no-resolve
+ - IP-CIDR6,2a0b: b580: : /48,🎯 全球直连,no-resolve
+ - IP-CIDR6,2a0b: b581: : /48,🎯 全球直连,no-resolve
+ - IP-CIDR6,2a0b: b582: : /48,🎯 全球直连,no-resolve
+ - IP-CIDR6,2a0b: b583: : /48,🎯 全球直连,no-resolve
  - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
  - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
  - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
