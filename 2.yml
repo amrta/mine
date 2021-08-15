@@ -1694,7 +1694,7 @@ proxies:
 - {name:,server: 45.88.179.35,port: 35497,type: vmess,uuid: 085e6815-e476-411a-a9a6-4e5306a1b875,alterId: 0,cipher: auto,tls: false,skip-cert-verify: false,udp: true}
 - {name:,server: 5.183.103.196,port: 57801,type: vmess,uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc,alterId: 64,cipher: auto,tls: false,skip-cert-verify: false,udp: true}
 - {name:,server: 13.245.16.126,port: 20404,type: vmess,uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5,alterId: 64,cipher: auto,tls: false,skip-cert-verify: false,udp: true}
-- {name:,server: 146.59.3.33,port: 1443,type: ss,cipher: chacha20-ietf-poly1305,password: M1LCZAlfz1bV,udp: true},
+- {name:,server: 146.59.3.33,port: 1443,type: ss,cipher: chacha20-ietf-poly1305,password: M1LCZAlfz1bV,udp: true}
 
 
 proxy-groups:
