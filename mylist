@@ -2,15 +2,9 @@
 DOMAIN-SUFFIX,openai.com,PROXY,Oracle2
 DOMAIN-SUFFIX,auth0.com,PROXY, Oracle2
 DOMAIN-SUFFIX,sentry.io,PROXY, Oracle2
-DOMAIN-SUFFIX,google.com,PROXY, Oracle2
-DOMAIN-SUFFIX,googleapis.com,PROXY, Oracle2
 DOMAIN-SUFFIX,hcaptcha.com,PROXY, Oracle2
 DOMAIN-SUFFIX,recaptcha.net,PROXY, Oracle2
 DOMAIN-SUFFIX,gstatic.com,PROXY, Oracle2
 DOMAIN-SUFFIX,gvt2.com,PROXY, Oracle2
 DOMAIN-SUFFIX,gvt1.com,PROXY, Oracle2
 DOMAIN-SUFFIX,gvt3.com,PROXY, Oracle2
-DOMAIN-SUFFIX,msftconnecttest.com,PROXY, Oracle2
-DOMAIN-SUFFIX,live.com,PROXY, Oracle2
-DOMAIN-SUFFIX,sfx.ms,PROXY, Oracle2
-DOMAIN-SUFFIX,microsoft.com,PROXY, Oracle2
