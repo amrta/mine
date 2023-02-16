@@ -1,10 +1,26 @@
 [Rule]
-DOMAIN-SUFFIX,openai.com,PROXY,Oracle2
-DOMAIN-SUFFIX,auth0.com,PROXY, Oracle2
-DOMAIN-SUFFIX,sentry.io,PROXY, Oracle2
-DOMAIN-SUFFIX,hcaptcha.com,PROXY, Oracle2
-DOMAIN-SUFFIX,recaptcha.net,PROXY, Oracle2
-DOMAIN-SUFFIX,gstatic.com,PROXY, Oracle2
-DOMAIN-SUFFIX,gvt2.com,PROXY, Oracle2
-DOMAIN-SUFFIX,gvt1.com,PROXY, Oracle2
-DOMAIN-SUFFIX,gvt3.com,PROXY, Oracle2
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,auth0.com,PROXY
+DOMAIN-SUFFIX,sentry.io,PROXY
+DOMAIN-SUFFIX,hcaptcha.com,PROXY
+DOMAIN-SUFFIX,recaptcha.net,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+DOMAIN-SUFFIX,gvt2.com,PROXY
+DOMAIN-SUFFIX,gvt1.com,PROXY
+DOMAIN-SUFFIX,gvt3.com,PROXY
+DOMAIN-KEYWORD,bing,PROXY
+DOMAIN-KEYWORD,microsoft,PROXY
+DOMAIN-SUFFIX,cognitive.microsoft.com,PROXY
+DOMAIN-KEYWORD,akamaized.net,PROXY
+DOMAIN-SUFFIX,live.com,PROXY
+DOMAIN-SUFFIX,microsofttranslator.com,PROXY
+DOMAIN-SUFFIX,office365.com,PROXY
+DOMAIN-SUFFIX,symcb.com,PROXY
+DOMAIN-SUFFIX,symcd.com,PROXY
+DOMAIN-SUFFIX,ssw.live.com,PROXY
+DOMAIN-SUFFIX,statics-marketingsites-cms-s-msft-com.akamaized.net,PROXY
+DOMAIN-SUFFIX,wofs-msn-com.akamaized.net,PROXY
+DOMAIN-REGEX,^https?://(api|c|www)\.bing\.com,PROXY
+DOMAIN-REGEX,^https?://api\.cognitive\.microsoft\.com,PROXY
+DOMAIN-REGEX,^https?://(c\.s-microsoft|img-s-msn-com\.akamaized|login\.live|microsofttranslator|r1\.res\.office365|sa\.symcb|sa\.symcd|ssw\.live|statics-marketingsites-cms-s-msft-com\.akamaized|wofs-msn-com\.akamaized)\.net,PROXY
+DOMAIN-KEYWORD,openai,PROXY
